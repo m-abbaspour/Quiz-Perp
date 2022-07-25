@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <!-- The crime logo has been downloaded from https://icon-library.com/icon/quiz-icon-png-8.html -->
+    <link rel="icon" type="image/x-icon" href="/assets/images/quiz-icon-png-8.jpg">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./assets/styles/quiz.css">
+</head>
+
+<body onload="loadXML();">
+    <header>
+        <div class="logo">
+            <img src="/assets/images/quiz-icon-png-8.jpg">
+        </div>
+        <h1>Quiz</h1>
+        <a name="Top_of_page"></a>
+        <svg class="timer" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M272 0C289.7 0 304 14.33 304 32C304 49.67 289.7 64 272 64H256V98.45C293.5 104.2 327.7 120 355.7 143L377.4 121.4C389.9 108.9 410.1 108.9 422.6 121.4C435.1 133.9 435.1 154.1 422.6 166.6L398.5 190.8C419.7 223.3 432 262.2 432 304C432 418.9 338.9 512 224 512C109.1 512 16 418.9 16 304C16 200 92.32 113.8 192 98.45V64H176C158.3 64 144 49.67 144 32C144 14.33 158.3 0 176 0L272 0zM248 192C248 178.7 237.3 168 224 168C210.7 168 200 178.7 200 192V320C200 333.3 210.7 344 224 344C237.3 344 248 333.3 248 320V192z"/></svg>
+    </header>
+
+    <main>
+        <section id="header">
+            <div>Answer the questions by clicking on the radio buttons</div>
+            <div>At the end of the quiz, click 'Grade Quiz' for your grade will be calculated</div>
+            <div>Good Luck!</div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M9.375 329.4c12.51-12.51 32.76-12.49 45.25 0L128 402.8V32c0-17.69 14.31-32 32-32s32 14.31 32 32v370.8l73.38-73.38c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-128 128c-12.5 12.5-32.75 12.5-45.25 0l-128-128C-3.125 362.1-3.125 341.9 9.375 329.4z" />
+            </svg>
+            <a href="#Bottom_of_page">Go to the bottom of the page
+            </a>
+        </section>
+
+        <section class="generated_Questions">
+            <div id="questions"></div>
+        </section>
+
+        <section id="display_grade"></section>
+
+        <section id="end">
+            <a name="Bottom_of_page"></a>
+            <button id="grade_quiz" onclick="gradeQuiz();">Grade Quiz</button>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <path
+                    d="M374.6 246.6C368.4 252.9 360.2 256 352 256s-16.38-3.125-22.62-9.375L224 141.3V448c0 17.69-14.33 31.1-31.1 31.1S160 465.7 160 448V141.3L54.63 246.6c-12.5 12.5-32.75 12.5-45.25 0s-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0l160 160C387.1 213.9 387.1 234.1 374.6 246.6z" />
+            </svg>
+            <a href="#Top_of_page">Go to the top of the page</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>If you run to any problems contact <span>help desk</span></p>
+    </footer>
+    <!-- Custom JavaScript -->
+    <script src="./assets/scripts/quiz.js"></script>
+</body>
+
+</html>

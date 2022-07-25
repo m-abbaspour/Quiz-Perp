@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:wght@200&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #7C99AC;
+}
+
+header{
+    padding: 15px;
+    font-family: 'Cinzel', serif;
+    background-color: #D3DEDC;
+    position: relative;
+    color: white;
+    font-family: 'Merriweather', serif;
+}
+
+header .logo{
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+}
+header h1{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+}
+
+.logo {
+    position: relative;
+}
+.logo img {
+    height: 70px;
+    display: block;
+}
+
+h1{
+    margin: 0;
+    display: inline-block;
+}
+.timer{
+    height: 30px;
+    margin-left: 80%;
+    animation:  rotation 2s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(-30deg);
+    }
+    to {
+      transform: rotate(30deg);
+    }
+  }
+
+
+a{
+ color: blue;
+ text-decoration: none;
+}
+
+a:hover{
+ color: black;
+ box-shadow: 0 1px 1px #F4FCD9 ;
+ text-decoration: underline;
+}
+
+#header svg{
+    height: 20px; 
+}
+
+main{
+    padding: 10px;
+    background-color: #FFEFEF;
+    margin: 0 10% 0 10%;
+    min-height: 100vh;
+}
+
+#header div{
+    font-family: 'Merriweather', serif;
+}
+
+main button{
+    position: absolute;
+    right: 15%;
+    background-color: #77aff0;
+    box-shadow: 0 3px 5px #3b3c3d;
+    border-radius: 5px;
+    font-size: 105%;
+    color: white; 
+}
+
+main button:hover{
+    background-color: white;
+    color: #77aff0;
+}
+
+main svg{
+    height: 30px;
+    padding-right: 10px;
+}
+#end{
+    padding-top: 20px;
+}
+
+h1 svg {
+    padding-left: 10px;
+}
+
+
+.hide{
+    display: none;
+    visibility: hidden;
+}
+
+.hide1{
+    display: none;
+    visibility: hidden;
+}
+
+#display_grade{
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 120%;
+    border-radius: 5px;
+}
+footer{
+    font-family: 'Merriweather', serif;
+    padding: 20px;
+    background-color: #92A9BD;
+    text-align: center;
+}
+
+footer span{
+    color: blue;
+    text-decoration: underline;
+}
