@@ -1,5 +1,5 @@
 # Quiz Prep
- <img src="./assets/images/mainPage.png" alt="Main Screen" width="80" height="80">
+ <img src="./assets/images/mainPage.png" alt="Main Screen" width="900" height="500">
 
 <div style="text-align:center;">Quiz Prep is a single-page Quiz.</div>
 
